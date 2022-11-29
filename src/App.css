@@ -1,0 +1,9 @@
+/* App.css -> adds styling to the webpage */
+
+
+.App{
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
