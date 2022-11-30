@@ -3,27 +3,34 @@
 //Made by: John Mathews, 
 
 //import statements
-import React from "react"
+import React, {useState} from "react"
 import "./App.css"
 
 //App(): main function for project
-function App() {
+function App(props) {
 
   //variables
 
   //functions
 
-
-
   return (
 
-    <div className = "App">
+    //This div block contains general front end 
+    <div className = "todo">
 
-      <h1> Welcome to To-Do List!</h1>
+      {/* header for the wesite */}
+      <h1>Advanced To-Do List!</h1>
+
+      {/*this will catch user input when properly implemented */}
+      <form>
+        <input type = "text" id = "newInput" className = "input input__lg" name = "text" />
+        <button type = "submit" className = "btn btn__lg"> Add </button>
+      </form>
+
+      {/* header for added tasks */}
+      <h2> Tasks: </h2>
 
     </div>
-
-
   );
 }
 
